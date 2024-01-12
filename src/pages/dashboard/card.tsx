@@ -12,7 +12,7 @@ interface TaskProps {
   task: Task;
 }
 
-export function Task({ task }: TaskProps) {
+export function Card({ task }: TaskProps) {
   const {
     setNodeRef,
     attributes,
